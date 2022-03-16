@@ -6,4 +6,3 @@
 ### **Useful links:**
 
 1. [https://www2.emersonprocess.com/en-US/brands/deltav](https://www2.emersonprocess.com/en-US/brands/deltav)
-2. [https://www.rockwellautomation.com/solutions/migration/programs.html](https://www.rockwellautomation.com/solutions/migration/programs.html)
