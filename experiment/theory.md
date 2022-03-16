@@ -185,13 +185,13 @@ DCS can be divided into two parts for understanding purpose.
 
 * Cost is high when compared with PLC/PC Combination.
 * Specialized support from engineering personnel required.
-* DCS’s require a clean control room environment compared to PLC/ PC environment.
+* DCS's require a clean control room environment compared to PLC/ PC environment.
 
 ### **Selection Procedure**
 
 There are number of considerations for selecting a proper automation tool for a particular application
 For multiple product manufacturing, varied receipe parameters, multiple procedures, often changes required in receipes, complex batch processes with number of regulatory loops, **DCS** is preferred.
-If the operator’s interaction is required to keep process to fulfill target performance, For observing process with faceplates, critical trends, for responding effectively during plant upsets, **DCS** is preferred.
+If the operator's interaction is required to keep process to fulfill target performance, For observing process with faceplates, critical trends, for responding effectively during plant upsets, **DCS** is preferred.
 **DCS** gives adjustable scan time, online configuration changes, simple to advanced PID control and advanced process control strategies.
 
 ### **Difference Between PLC and DCS**
