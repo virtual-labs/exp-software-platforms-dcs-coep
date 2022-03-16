@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#wrapper {
+     width: 1005px;
+     margin: 0 auto;
+    position: relative;
+}
+#dvSource, #dvDest {
+    border: 1px solid black;
+    min-height: 1200px;
+    color: black;
+}
+#dvSource {
+     width: 160px;
+/*     background-color: #111;*/
+/*    min-height: 100px;*/
+/*    position: fixed;*/
+}
+#dvDest {
+     width: 1036px;
+     margin-top: -1204px;
+/*     background-color: #777;*/
+    float: right;
+/*    position: fixed;*/
+}
+
+body {
+				font-family: Arial;
+				font-size: 10pt;
+			}
+			#dvSource img {
+				height: 45px;
+				width: 155px;
+				margin: 0px;
+			}
+			#dvAI img {
+				height: 45px;
+				width: 60px;
+				margin: 0px;
+			}
+			#dvAO img {
+				height: 45px;
+				width: 60px;
+				margin: 0px;
+			}
+			#dvDI img {
+				height: 45px;
+				width: 60px;
+				margin: 0px;
+			}
+			#dvDO img {
+				height: 45px;
+				width: 60px;
+				margin: 0px;
+			}
+			#dvAI, #dvAO, #dvDI, #dvDO {
+				margin-left: 15px;
+				width: 130px;
+				border: 1px solid black;
+				margin-top: 5px;
+			},
+			.draggable {
+				filter: alpha(opacity=60);
+				opacity: 0.6;
+			}
+			.dropped {
+				position: static !important;
+			}
+			#cpu {
+				width: 252px;
+				height: 285px;
+				display: block;
+				margin-top: 252px;
+				margin-left: 434px;
+			}
+			img {
+				height: 45px;
+				width: 155px;
+				margin: 0px;
+			}
+			#DivDI img {
+				height: 45px;
+				width: 65px;
+				margin: 0px;
+			}
+			#DivAI img {
+				height: 45px;
+				width: 65px;
+				margin: 0px;
+			}
+			#DivAI2 img {
+				height: 45px;
+				width: 65px;
+				margin: 0px;
+			}
+			#DivAO img {
+				height: 45px;
+				width: 65px;
+				margin: 0px;
+			}
+			#DivDO img {
+				height: 45px;
+				width: 65px;
+				margin: 0px;
+			}
+			h6 {
+				color: #5e5e5e;
+				font-family: myFirstFont;
+				margin: 1em;
+			}

@@ -2,36 +2,62 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Which one of the following defines Distributed Control System?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Control system which is functionally as well as physically distributed",
+        "b": "Control system which is physically distributed",
+        "c": "Control system which is functionally distributed",
+        "d": "None of these"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+     
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "On which level does Plant Supervisory Control stand in architecture of DCS?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Level 4",
+        "b": "Level 0",
+        "c": "Level 1",
+        "d": "Level 2"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which card is used for sensing input from RTD / Thermocouple?",
+      "answers": {
+        "a": "Digital Input Card",
+        "b": "Analog Input Card",
+        "c": "Digital Output Card",
+        "d": "Analog Output Card"
       },
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Centum CS3000 is a product of",
+      "answers": {
+        "a": "ABB",
+        "b": "Honeywell",
+        "c": "Yokogawa",
+        "d": "Rockwell"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "DCS is used in which type of logic control?",
+      "answers": {
+        "a": "Regulatory/Analog loop control",
+        "b": "High speed logic control",
+        "c": "Both a and b",
+        "d": "None of these"
+      },
+     
       "correctAnswer": "c",
       "difficulty": "beginner"
     }
