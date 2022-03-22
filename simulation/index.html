@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='UTF-8' />
+	<title>DCS-Simulator</title>
+	<![if !IE]>
+	
+	<link rel='stylesheet' href='assert/css/style.css' />
+	<link rel="stylesheet" href="assert/css/plc_stylesheet.css">
+	<link rel='stylesheet' href='assert/css/exp1.css' />
+	<link rel="stylesheet" href="assert/css/jquery-ui.css">
+	<![endif]-->
+
+</head>
+<body id="player" oncontextmenu="return false;">
+	<div id = navigation> </div>
+	<header>
+		<div class="width-set">
+			<div class = "logoCircle">
+			     <img src="assert/images/coep_logo.png"  style="width: 117px; height: 123px;"/>
+			</div>
+			<hgroup>
+				<h1 class="right">user-name</h1>
+				<h3 class="right">drop</h3>
+			</hgroup>
+		</div>
+	</header> <!-- END header -->
+	<!-- main page start-->
+	
+	<section class="main-page width-set" id="plc-editor"  style="height: 1257px;">
+		<h1 style="text-align: center;font-size: 31px;margin: 15px 0;color: #6d96b3">Distributed Control System</h1>
+		<!--<hgroup>
+				<h4>Study hardware and software platforms for DCS </h4>
+		</hgroup>-->
+		
+		<!-- heading of main page -->
+
+<hr />
+			<div id="wrapper"></div>
+			<div id="dvSource">
+				<div id="label" style="height: 4px;"></div>
+
+				<img alt="" id="ImgInputDI" src="assert/images/DI.jpg" />
+				<img alt="" id="ImgOutputDO" src="assert/images/DO.jpg" />
+				<img alt="" id="ImgInputAI" src="assert/images/AI.jpg"/>
+				<img alt="" id="ImgOutputAO" src="assert/images/AO.jpg" />
+				<img alt="" id="ImgMemory" src="assert/images/Memory.jpg" />
+				<img alt="" id="ImgPS" src="assert/images/blank.jpg" />
+				
+				<div id="dvDI">
+					<img alt="" class="DIClass" id="ImgPB" src="assert/images/DI/push button1.jpg" />
+					<img alt="" class="DIClass" id="ImgLS" src="assert/images/DI/levelSwtch.jpg" />
+					<img alt="" class="DIClass" id="ImgTS" src="assert/images/DI/temp swtch.jpg" />
+					<img alt="" class="DIClass" id="ImgPS" src="assert/images/DI/pressure swtch.jpg" />
+					<img alt="" class="DIClass" id="ImgCtr" src="assert/images/DI/contactor.jpg" />
+					<img alt="" class="DIClass" id="ImgFS" src="assert/images/DI/flow swtch.jpg" />
+					<img alt="" class="DIClass" id="ImgSD" src="assert/images/DI/smoke detector.jpg" />
+					<img alt="" class="DIClass" id="ImgHD" src="assert/images/DI/heat detector.jpg" />
+				</div>
+				
+				<div id="dvAI">
+					<img alt="" class="AIClass" id="ImgTTx" src="assert/images/AI/Temp tx.jpg" />
+					<img alt="" class="AIClass" id="ImgLTxE" src="assert/images/AI/levelTxExternal.jpg" />
+					<img alt="" class="AIClass" id="ImgOFTx" src="assert/images/AI/orifice FTx.jpg" />
+					<img alt="" class="AIClass" id="ImgLTxI" src="assert/images/AI/levelTxInternal.jpg" />
+					<img alt="" class="AIClass" id="ImgVFTx" src="assert/images/AI/ventuti FTx.jpg" />
+					<img alt="" class="AIClass" id="ImgPT" src="assert/images/AI/pitot tube.jpg" />
+					<img alt="" class="AIClass" id="ImgVtx" src="assert/images/AI/vortex.jpg" />
+					<img alt="" class="AIClass" id="ImgM" src="assert/images/AI/magnetic.jpg" />
+				</div>
+				
+				<div id="dvAO">
+					<img alt="" class="AOClass" id="ImgFan" src="assert/images/AO/fan.jpg" />
+					<img alt="" class="AOClass" id="ImgPumpC" src="assert/images/AO/pump centrifugal1.jpg" />
+					<img alt="" class="AOClass" id="ImgCV" src="assert/images/AO/control vlave.jpg" />
+					<img alt="" class="AOClass" id="ImgTWV" src="assert/images/AO/3-way valve.jpg" />
+				</div>
+				
+				<div id="dvDO">
+					<img alt="" class="DOClass" id="ImgLA" src="assert/images/DO/level alarm.jpg" />
+					<img alt="" class="DOClass" id="ImgSV" src="assert/images/DO/solenid vlave.jpg" />
+					<img alt="" class="DOClass" id="ImgPRV" src="assert/images/DO/pressureReliefValve.jpg" />
+					<img alt="" class="DOClass" id="ImgPSV" src="assert/images/DO/pressureSaftyValve.jpg" />
+				</div>
+			</div>
+			<hr />
+			
+			
+			<div id="dvDest">
+				
+				
+				
+<!-- 			//////	 CPU AI AO DI DO -->
+					
+					
+				<div class="displayed" id="cpu">
+					<img  alt="" src="assert/images/CPU_new.jpg" style="width: 252px; height: 285px; margin-left: 26px; margin-top: 0px;"/>
+				</div>
+				
+				<div id="dropInputDI" style="border: 1px solid rgb(204, 204, 204); width: 155px; height: 45px; margin-left: 484px; margin-top: -332px; ">
+					<h6 class="DI"> DI </h6>
+				</div>
+				
+				<div id="dropOutputDO" style="border: 1px solid rgb(204, 204, 204); width: 155px; height: 45px; margin-left: 713px; margin-top: 9px; ">
+					<h6 class="DO"> DO </h6>
+				</div>
+				
+				<div id="dropInputAI" style="border: 1px solid rgb(204, 204, 204); width: 155px; height: 45px; margin-left: 303px; margin-top: 31px; ">
+					<h6 class="AI"> AI </h6>
+				</div>
+				 
+				<div id="dropOutputAO" style="border: 1px solid rgb(204, 204, 204); width: 155px; height: 45px; margin-left: 303px; margin-top: 25px; ">
+					<h6 class="AO"> AO </h6>
+				</div>
+				
+				<div id="dropMemory" style="border: 1px solid rgb(204, 204, 204); width: 155px; height: 45px; margin-left: 713px; margin-top: -77px; ">
+					<h6 class="Memory"> Memory </h6>
+				</div>
+				
+				<div id="dropPS" style="border: 1px solid rgb(204, 204, 204); width: 155px; height: 45px; margin-left: 521px; margin-top: 109px; ">
+					<h6 class="PS"> PS </h6>
+				</div>
+				
+				
+				
+<!-- 		//// DI ///////////// -->
+				
+			<div id="DivDI">
+					
+					
+				<div id="DI1" style="border: 1px solid rgb(204, 204, 204); width: 65px; height: 45px; margin-left: 82px; margin-top: -537px; ">
+					<h6 class="DI1"> DI1 </h6>
+					
+				</div>
+				
+				<div id="DI2" style="border: 1px solid rgb(204, 204, 204); width: 65px; height: 45px; margin-left: 170px; margin-top: -47px; ">
+					<h6 class="DI2"> DI2</h6>
+				</div>
+				
+				<div id="DI3" style="border: 1px solid rgb(204, 204, 204); width: 65px; height: 45px; margin-left: 258px; margin-top: -47px;  ">
+					<h6 class="DI3"> DI3 </h6>
+				</div>
+				
+				<div id="DI4" style="border: 1px solid rgb(204, 204, 204); width: 65px; height: 45px; margin-left: 346px; margin-top: -47px; ">
+					<h6 class="DI4"> DI4 </h6>
+				</div>
+				
+				<div id="DI5" style="border: 1px solid rgb(204, 204, 204); width: 65px; height: 45px; margin-left: 434px; margin-top: -47px; ">
+					<h6 class="DI5"> DI5 </h6>
+				</div>
+				
+				<div id="DI6" style="border: 1px solid rgb(204, 204, 204); width: 65px; height: 45px; margin-left: 522px; margin-top: -47px; ">
+					<h6 class="DI6"> DI6 </h6>
+				</div>
+				
+				<div id="DI7" style="border: 1px solid rgb(204, 204, 204); width: 65px; height: 45px; margin-left: 610px; margin-top: -47px; ">
+					<h6 class="DI7"> DI7 </h6>
+				</div>
+				
+				<div id="DI8" style="border: 1px solid rgb(204, 204, 204); width: 65px; height: 45px; margin-left: 698px; margin-top: -47px; ">
+					<h6 class="DI8"> DI8 </h6>
+				</div>
+				
+			</div>
+				
+				
+<!-- 				//// AI /////////////  -->
+				
+			<div id="DivAI" style="width: 350px;">
+					
+					
+				<div id="DivAI1" style="width: 350px;"></div>	
+				<div id="AI1" style="border: 1px solid rgb(204, 204, 204); width: 60px; height: 45px; margin-left: 4px; margin-top: 87px;">
+					<h6 class="AI1"> AI1 </h6>
+					
+				</div>
+				
+				<div id="AI2" style="border: 1px solid rgb(204, 204, 204); width: 60px; height: 45px; margin-left: 70px; margin-top: -47px; ">
+					<h6 class="AI2"> AI2</h6>
+				</div>
+				
+				<div id="AI3" style="border: 1px solid rgb(204, 204, 204); width: 60px; height: 45px; margin-left: 136px; margin-top: -47px;  ">
+					<h6 class="AI3"> AI3 </h6>
+				</div>
+				
+				<div id="AI4" style="border: 1px solid rgb(204, 204, 204); width: 60px; height: 45px; margin-left: 202px; margin-top: -47px; ">
+					<h6 class="AI4"> AI4 </h6>
+				</div>
+				</div>	
+				
+				<div id="DivAI2" style="width: 350px;">
+				
+				<div id="AI5" style="border: 1px solid rgb(204, 204, 204); width: 60px; height: 45px; margin-left: 150px; margin-top: 31px; ">
+					<h6 class="AI5"> AI5 </h6>
+				</div>
+				
+				<div id="AI6" style="border: 1px solid rgb(204, 204, 204); width: 60px; height: 45px; margin-left: 218px; margin-top: -47px; ">
+					<h6 class="AI6"> AI6 </h6>
+				</div>
+				
+				<div id="AI7" style="border: 1px solid rgb(204, 204, 204); width: 60px; height: 45px; margin-left: 287px; margin-top: -47px; ">
+					<h6 class="AI7"> AI7 </h6>
+				</div>
+				
+				<div id="AI8" style="border: 1px solid rgb(204, 204, 204); width: 60px; height: 45px; margin-left: 355px; margin-top: -47px; ">
+					<h6 class="AI8"> AI8 </h6>
+				</div>
+				</div>	
+				
+			</div>
+				
+				
+				
+				
+		<!-- 		//// AO ///////////// -->
+				
+			<div id="DivAO">
+					
+				<div id="AO1" style="border: 1px solid rgb(204, 204, 204); width: 65px; height: 45px; margin-left: 221px; margin-top: -667px; ">
+					<h6 class="AO1"> AO1 </h6>
+					
+				</div>
+				
+				<div id="AO2" style="border: 1px solid rgb(204, 204, 204); width: 65px; height: 45px; margin-left: 303px; margin-top: -47px; ">
+					<h6 class="AO2"> AO2</h6>
+				</div>
+				
+				<div id="AO3" style="border: 1px solid rgb(204, 204, 204); width: 65px; height: 45px; margin-left: 386px; margin-top: -47px;  ">
+					<h6 class="AO3"> AO3 </h6>
+				</div>
+				
+				<div id="AO4" style="border: 1px solid rgb(204, 204, 204); width: 65px; height: 45px; margin-left: 468px; margin-top: -47px; ">
+					<h6 class="AO4"> AO4 </h6>
+				</div>
+				<!-- <div id="AO5" style="border: 1px solid rgb(204, 204, 204); width: 65px; height: 45px; margin-left: 434px; margin-top: -47px; ">
+					<h6 class="ptt"> AO5 </h6>
+				</div>
+				
+				<div id="AO6" style="border: 1px solid rgb(204, 204, 204); width: 65px; height: 45px; margin-left: 522px; margin-top: -47px; ">
+					<h6 class="ptt"> AO6 </h6>
+				</div>
+				
+				<div id="AO7" style="border: 1px solid rgb(204, 204, 204); width: 65px; height: 45px; margin-left: 610px; margin-top: -47px; ">
+					<h6 class="ptt"> AO7 </h6>
+				</div>
+				
+				<div id="AO8" style="border: 1px solid rgb(204, 204, 204); width: 65px; height: 45px; margin-left: 698px; margin-top: -47px; ">
+					<h6 class="ptt"> DI8 </h6>
+				</div> -->
+				
+			</div>
+						
+				
+				
+				
+				
+		<!-- 		//// DO ///////////// -->
+				
+			<div id="DivDO">
+					
+				<div id="DO1" style="border: 1px solid rgb(204, 204, 204); width: 65px; height: 45px; margin-left: 1090px; margin-top: -407px; ">
+					<h6 class="DO1"> DO1 </h6>
+					
+				</div>
+				
+				<div id="DO2" style="border: 1px solid rgb(204, 204, 204); width: 65px; height: 45px; margin-left: 1090px; margin-top: 22px;">
+					<h6 class="DO2"> DO2</h6>
+				</div>
+				
+				<div id="DO3" style="border: 1px solid rgb(204, 204, 204); width: 65px; height: 45px; margin-left: 1090px; margin-top: 19px;  ">
+					<h6 class="DO3"> DO3 </h6>
+				</div>
+				
+				<div id="DO4" style="border: 1px solid rgb(204, 204, 204); width: 65px; height: 45px; margin-left: 1090px; margin-top: 25px; ">
+					<h6 class="DO4"> DO4 </h6>
+				</div>
+								
+			</div>
+					
+					
+				<div class="DIcntr" id="dic" style="margin-top: -306px"> 
+				<img src="assert/images/DI connector1.jpg" style="width: 660px; height: 42px; margin-left: 279px; margin-top: -32px; margin-bottom: 2px;"/>
+				<img src="assert/images/DI connector2.jpg" style="width: 50px; height: 69px; margin-left: 695px; margin-top: -7px;"/>
+				</div>
+				
+				<div class=AIcntr" id="aic" style="margin-top: -306px"> 
+				<img src="assert/images/AI connector1.jpg" style="width: 210px; height: 20px; margin-left: 197px; margin-top: 325px;"/>
+				<img src="assert/images/AI connector1.jpg" style="width: 214px; height: 20px; margin-left: -69px; margin-bottom: -78px;"/>
+				<img src="assert/images/AI con2.jpg" style="width: 37px; height: 132px; margin-left: -314px; margin-bottom: -132px;"/>
+				<img src="assert/images/AI con1.jpg" style="width: 198px; height: 62px; margin-left: -20px; margin-bottom: -140px; "/>
+				</div>
+				
+				
+				<div class="DOcntr" id="doc" style="margin-top: -306px"> 
+				<img src="assert/images/DO con.jpg" style="width: 57px; height: 250px; margin-left: 1033px; margin-top: 235px;"/>
+				</div>
+				
+				<div class="AOcntr" id="aoc" style="margin-top: -306px"> 
+				<img src="assert/images/AO con1.jpg" style="width: 298px; height: 68px; margin-left: 220px; margin-top: 339px;"/>
+				<img src="assert/images/AO con2.jpg" style="width: 162px; height: 66px; margin-left: -217px; margin-bottom: 68px;"/>
+				</div>
+				
+				<img  alt="" src="assert/images/bulk power supply.jpg" style=" width: 81px; height: 79px; margin-left: 591px; margin-top: -281px; margin-bottom: 246px;"></img>
+			</div>
+		</section>
+		<!-- END of main-page -->
+		
+		
+
+	<footer >
+		<label class="left">Copyright @ CoEP Virtual labs.All rights reserved.</label>
+	</footer> <!-- END footer -->
+	<div> <!-- <table style ='display:none'><tbody id ="temp" onchange = "dwrScript.startPolling();"></tbody></table> -->
+	 <input type = "text" id = "temp" onchange = "dwrScript.startPolling();"/>
+	</div>
+	
+	
+<script src="../assets/js/iframeResize.js"></script></body>
+
+ <script ="text/javascript" src='assert/lib/jquery.min.js'></script>
+		<script ="text/javascript" src='assert/lib/jquery-ui.min.js'></script>
+		<script src="src/exp1.js"></script>
+
+</html>

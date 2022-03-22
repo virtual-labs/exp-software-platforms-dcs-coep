@@ -1,0 +1,548 @@
+<!DOCTYPE html><html lang="en"><head>
+      <!--Google Tag Manager-->
+      <script class="gtm">
+        var dataLayer = [{
+        'labName': 'Virtual Lab',
+        'discipline': 'Test',
+        'college': 'COEP',
+        'phase': 'Testing',
+        'expName': 'STUDY HARDWARE AND SOFTWARE PLATFORMS FOR DCS',
+        'expShortName': 'software-platforms-dcs'
+        }];
+    
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-5NMQ9NQ');
+      </script>
+      <!--End Google Tag Manager-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="" name="description">
+    <meta content="" name="author">
+    
+    	<meta name="experiment-short-name" content="software-platforms-dcs">
+    	<meta name="developer-institute" content="COEP">
+    	<meta name="learning-unit" content="STUDY HARDWARE AND SOFTWARE PLATFORMS FOR DCS">
+    	<meta name="task-name" content="Theory">
+    
+    <!-- For iPhone -->
+    <meta name="msapplication-TileColor" content="#4076e0">
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#4076e0">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#4076e0">
+    <title>Virtual Labs</title>
+    <link rel="shortcut icon" href="./assets/images/favicon.ico">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css" integrity="sha512-Oy18vBnbSJkXTndr2n6lDMO5NN31UljR8e/ICzVPrGpSud4Gkckb8yUpqhKuUNoE+o9gAb4O/rAxxw1ojyUVzg==" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;family=Raleway&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/github-markdown.min.css">
+    <link rel="stylesheet" href="./assets/css/vlabs-style.css">
+    
+    <script src="./assets/js/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <style>
+      h1 {
+      font-size: 1.8rem;
+      }
+      h2 {
+      font-size: 1.4rem;
+      }
+      h3 {
+      font-size: 1.2rem;
+      }
+
+      h2, h3 {
+      font-weight: 800;
+      }
+    </style>
+  </head>
+  <body class="p-0 container-fluid vlabs-page d-flex flex-column justify-content-between">
+      <!--Google Tag Manager (noscript)-->
+      <noscript class="gtm">
+        <iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-5NMQ9NQ" style="display:none;visibility:hidden" width="0">
+        </iframe>
+      </noscript>
+      <!--End Google Tag Manager (noscript)-->
+  
+      <header class="vlabs-header sticky-top bg-white">
+        <nav class="p-0 navbar navbar-light d-flex align-items-stretch">
+          
+          <button class="navbar-toggler px-4" type="button" onclick="toggle()">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="d-flex justify-content-center">        
+            <a href="https://vlab.co.in" class="navbar-brand">
+              <img src="./assets/images/vlabs-color-small-moe.jpg" alt="vlabs logo" class="vlabs-logo">
+            </a>
+          </div>
+          
+          <div id="headerNavbar" class="d-none border-top flex-grow-1 d-lg-flex align-items-center">
+            <ul class="navbar-nav ml-auto text-center d-flex flex-md-row">
+              <li class="nav-item px-2 m-1">
+                <a href="https://vlab.co.in">HOME</a>
+              </li>
+              <li class="nav-item px-2 m-1">
+                <a href="https://vlab.co.in/participating-institutes">PARTNERS</a>
+              </li>
+              <li class="nav-item px-2 m-1">
+                <a href="https://vlab.co.in/contact-us">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <div class="container-fluid flex-fill d-flex flex-column vlabs-page-main">
+        <div class="row d-flex justify-content-between">
+          <div class="flex-column">
+		  <div class="row py-4 px-4 breadcrumbs">
+		  	<div class="title is-4 tools">Tools</div>
+		  	<span class="mx-2">
+		  		<i aria-hidden="true" class="fa fa-angle-right"></i>
+		  	</span>
+		  	<a href="performance-report.html" target="_blank">
+		  		<button class="v-button">Performance Tool</button>
+		  	</a>
+		  </div>
+	  </div>
+          <div class="flex-column">
+            <div id="plugin-bug-report"></div>
+            <div id="plugin-rating"></div>
+          </div>
+        </div>
+        <div class="row flex-grow-1 d-flex flex-nowrap flex-column flex-lg-row">
+          <div class="modal fade popupmenu" id="popupMenu" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                              <a href="https://vlab.co.in" class="navbar-brand">
+                                  <img src="./assets/images/vlabs-color-small-moe.jpg" alt="vlabs logo" class="vlabs-logo">
+                              </a>
+                          </h5>
+                          <button type="button" class="btn-close align-self-center" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body nav-menu">
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="index.html" class="p-2 ">
+                                      Aim
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="theory.html" class="p-2  current-item ">
+                                      Theory
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="pretest.html" class="p-2 ">
+                                      Pretest
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="procedure.html" class="p-2 ">
+                                      Procedure
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="simulation.html" class="p-2 ">
+                                      Simulation
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="posttest.html" class="p-2 ">
+                                      Posttest
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="references.html" class="p-2 ">
+                                      References
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="feedback.html" class="p-2 ">
+                                      Feedback
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="nav flex-column sidebar nav-menu flex-shrink-0 px-lg-4 align-items-center align-items-lg-start hidden d-none d-lg-flex" id="menu">
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="index.html" class="p-2 ">
+                        Aim
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="theory.html" class="p-2  current-item ">
+                        Theory
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="pretest.html" class="p-2 ">
+                        Pretest
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="procedure.html" class="p-2 ">
+                        Procedure
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="simulation.html" class="p-2 ">
+                        Simulation
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="posttest.html" class="p-2 ">
+                        Posttest
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="references.html" class="p-2 ">
+                        References
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="feedback.html" class="p-2 ">
+                        Feedback
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+          </div>          <div class="vlabs-page-content px-5 pb-4 flex-grow-1 markdown-body">
+            <div class="text-center fix-spacing">
+              <h3 id="study-hardware-and-software-platforms-for-dcs">Study hardware and software platforms for DCS</h3>
+          
+            </div>
+              <h3 id="introduction"><strong>Introduction</strong></h3>
+          <p>In any process plant, the purpose of automation to maintain the product quality, consistency, reduce start-up time, and increase speed of operation with human safety. Control system whether it is a Programmable Logic Controller (PLC) or a Distributed Control System (DCS) is required for the same purpose. The purpose of Industrial automation laboratory is to understand the theory and programming aspects of DCS.</p>
+          <h3 id="definition"><strong>Definition</strong></h3>
+          <p>A Control system which is functionally as well as physically distributed is called Distributed Control System.</p>
+          <h3 id="evolution-of-dcs"><strong>Evolution of DCS</strong></h3>
+          <p>The control systems were developed along with the technology and as the difficulties faced by each technology were realized.</p>
+          <h4 id="1-open-loop-offline"><strong>1. Open Loop: offline</strong></h4>
+          <p>In this technology, digital computers were applied for acquisition and processing of plant data/laboratory data or test field data. At this time operator had to read this data and store them, which was an offline process for acquisition and processing of data. No optimization and feedback control.</p>
+          <center><img src="images/img1.png" title=""></center>
+          <center><img src="images/img2.png" title=""></center>
+          
+          <h4 id="2-closed-loop--offline"><strong>2. Closed Loop : offline</strong></h4>
+          <p>In this technology, set point values were calculated by computer but still manually set by plant operator. Thus offline closed loop control was formed. This was only acceptable when timing condition of process control is not severe as manual intervention leads to introduction of time delay in the control of the process.</p>
+          <h4 id="3-open-loop--online"><strong>3. Open Loop : online</strong></h4>
+          <p>In this era of 50's computers were provided for process interface for data acquisition and process control, by connecting inputs directly to the computer. But still used as open loop control.</p>
+          <center><img src="images/img3.png" title=""></center>
+          <center><img src="images/img4.png" title=""></center>
+          
+          <h4 id="4-closed-loop--online"><strong>4. Closed Loop : online</strong></h4>
+          <p>At the end of 50's era output elements were also connected to the computers for online process monitoring and control. Thus data transfer in both the directions was the first step towards online closed loop control.</p>
+          <h4 id="5-distributed-dedicated-computers"><strong>5. Distributed Dedicated Computers</strong></h4>
+          <p>In the first half of 60's computers were used for dedicated functions i.e. their functions were clearly defined like data processing, data acquisition etc. with no interconnection between them. Data inter-exchange was only possible via a transportable medium.</p>
+          <center><img src="images/img5.png" title=""></center>
+          <center><img src="images/img6.png" title=""></center>
+          
+          <h4 id="6-centralized-dedicated-computers"><strong>6. Centralized Dedicated Computers</strong></h4>
+          <p>The information inter-exchange which was not possible in the distributed dedicated computer control was possible by introducing another central computer in which data from all the dedicated computers is collected, which can be shared later on. This led to the information exchange but with computational speed and reliability of computer at stake.</p>
+          <h4 id="7-decentralized-computer-system"><strong>7. Decentralized Computer System</strong></h4>
+          <p>In the beginning of the 70's it was accepted that the central computer will solve central automation problem only and peripheral computers have to solve local problems in their close surrounding. A two stage hierarchical automation system structure called Decentralized Computer System was introduced because of this .</p>
+          <center><img src="images/img7.png" title=""></center>
+          
+          <h3 id="architecture-and-block-diagram"><strong>Architecture and Block Diagram</strong></h3>
+          <p>Functionally Decentralized or Distributed Control System is divided into four different levels as follows performing the functions as described below:</p>
+          <h4 id="level-0-field-level"><strong>LEVEL 0: FIELD LEVEL</strong></h4>
+          <p>As the name suggests this level comprises of the basic field instruments like sensors, transmitters etc. which are directly connected to the process.</p>
+          <h4 id="level-1-direct-process-control"><strong>LEVEL 1: DIRECT PROCESS CONTROL</strong></h4>
+          <p>This level handles various functions as:</p>
+          <ul>
+          <li>Data Acquisition</li>
+          <li>Data Check</li>
+          <li>Plant Monitoring</li>
+          <li>Open and Closed loop Control</li>
+          <li>Reporting</li>
+          </ul>
+          <h4 id="level-2-plant-supervisory-control"><strong>LEVEL 2: PLANT SUPERVISORY CONTROL</strong></h4>
+          <p>This level handles various functions as:</p>
+          <ul>
+          <li>Plant Performance Monitoring</li>
+          <li>Plant Coordination</li>
+          <li>Optimal Process Control</li>
+          <li>Adaptive Control</li>
+          <li>Failure Detections</li>
+          </ul>
+          <h4 id="level-3-production-scheduling-and-control"><strong>LEVEL 3: PRODUCTION SCHEDULING AND CONTROL</strong></h4>
+          <p>This level handles various functions as:</p>
+          <ul>
+          <li>Production Dispatching</li>
+          <li>Inventory Control</li>
+          <li>Production Supervision</li>
+          <li>Production Re-Scheduling</li>
+          <li>Production Reporting</li>
+          </ul>
+          <h4 id="level-4-plant-management"><strong>LEVEL 4: PLANT MANAGEMENT</strong></h4>
+          <p>This level handles various functions as:</p>
+          <ul>
+          <li>Market and Customer Analysis</li>
+          <li>Orders And Sales Statistics</li>
+          <li>Capacity and Order Balance</li>
+          <li>Order Dispatching</li>
+          <li>Production Planning</li>
+          <li>Terms Supervision</li>
+          <li>Financial Surveys</li>
+          </ul>
+          <center><img src="images/img8.png" title=""></center>
+          
+          <h3 id="working-of-dcs"><strong>Working of DCS</strong></h3>
+          <p>The working of DCS can be divided into two parts</p>
+          <h4 id="1hardware-flow"><strong>1.Hardware Flow</strong></h4>
+          <p>In any process the sensory organs of a process are sensors and /or transmitters through which the status of the process is known. The flow of signal passes from sensors/ transmitters to a local field junction box where number of wires comes. From field junction box through a multi core cable it goes to the main junction box. Again from main junction box it comes to a marshalling cabinet where the wires enter into the control panel. In the control panel, controller and I/O cards are placed. After signal entering the panel, the signal wire with or without a relay card goes into the input card connected to the controller. Controller thereby processes the data according to the logic created and gives output to the Final Control Element through output cards, following the same route.</p>
+          <center><img src="images/img9.png" title=""></center>
+          
+          <h4 id="2software"><strong>2.Software</strong></h4>
+          <p>There is a scan cycle which needs to be completed for the execution of an instruction needed to control the process. The scan period is set by the user while configuring DCS and the following steps occur for each scan period:</p>
+          <ul>
+          <li>Firstly the status of inputs from the process through the input cards are checked.</li>
+          <li>Then the values are updated in the program and according to the logic prepared by the programmer output values are decided.</li>
+          <li>These outputs then go to the field through output cards.</li>
+          <li>Moreover the status is updated in the SCADA as well as the changes are stored for future reference in the historian. Any alarms i.e. deviations in the process are there, then they are also noted and stored.</li>
+          </ul>
+          <h3 id="functions-of-dcs"><strong>Functions of DCS</strong></h3>
+          <ul>
+          <li>I/O signal characterization</li>
+          <li>Signal filtering</li>
+          <li>Alarming I/O modules</li>
+          <li>Ranging and engineering units</li>
+          <li>Control logic</li>
+          <li>Control interlocks</li>
+          <li>Sequencing</li>
+          <li>Batch control</li>
+          <li>Passing on trending information</li>
+          <li>Passing on report information</li>
+          </ul>
+          <h3 id="performance-evaluation-of-dcs"><strong>Performance Evaluation of DCS</strong></h3>
+          <ul>
+          <li>Available memory for configuration</li>
+          <li>Available idle time (based on a given scan rate)</li>
+          <li>I/O loading or criticality</li>
+          <li>Number of available software addresses for Input/output blocks</li>
+          <li>Number of available software addresses for control blocks</li>
+          </ul>
+          <h3 id="internals-of-dcs"><strong>Internals of DCS</strong></h3>
+          <p>DCS can be divided into two parts for understanding purpose.</p>
+          <p><strong>Hardware:</strong> It consists of the following</p>
+          <ul>
+          <li>Controller</li>
+          <li>Power supply for controller</li>
+          <li>I/O Terminal Block</li>
+          <li>DIN Rail</li>
+          <li>I/O Interface Carrier</li>
+          <li>Bulk Power Supply</li>
+          <li>System Power Supply</li>
+          <li>Server</li>
+          <li>Professional Stations</li>
+          <li>Operator Stations</li>
+          <li>Application Stations</li>
+          <li>Remote Workstations</li>
+          <li>Relays</li>
+          </ul>
+          <p><strong>Software:</strong> It consists of the following</p>
+          <ul>
+          <li>To view and control the process using mimic, same as the real process (SCADA).</li>
+          <li>Programming environment wherein logic can be created.</li>
+          <li>A hierarchical view of the whole system</li>
+          <li>Advance Control Strategy Schemes</li>
+          <li>Configuration Suite to configure the hardware attached.</li>
+          <li>Diagnostic Suite</li>
+          <li>Alarm Module</li>
+          <li>History Module</li>
+          <li>Trends Module</li>
+          <li>Database management module</li>
+          </ul>
+          <h3 id="advantages"><strong>Advantages</strong></h3>
+          <ul>
+          <li>System implementation can be carried out in a modular fashion due to which system growth can be easily achieved as each processor has clearly defined set of functions; if carefully designed.</li>
+          <li>System overloading is less in case of DCS.</li>
+          <li>In case of failure of a part, DCS doesn't affect the whole system/ process.</li>
+          <li>Backup i.e. redundancy feature possible in DCS.</li>
+          <li>Reliability of DCS is more than that of Centralized Control.</li>
+          <li>Reduction of cost of interfacing to computer due to reduction in wire usage for control purpose.</li>
+          <li>DCS is more flexible in terms of altering configurations within a specified range so as to confrm to the change requirements if any.</li>
+          <li>Duplicate storage of critical data can be done easily.</li>
+          <li>Independent or standalone processors communicate with each other which make management of computers easy.</li>
+          <li>Minimization of data loss as well as errors due to placement of controllers in the nearby vicinity in DCS.</li>
+          <li>Advanced control strategies are easy to implement in DCS.</li>
+          </ul>
+          <h3 id="limitations"><strong>Limitations</strong></h3>
+          <ul>
+          <li>Cost is high when compared with PLC/PC Combination.</li>
+          <li>Specialized support from engineering personnel required.</li>
+          <li>DCS's require a clean control room environment compared to PLC/ PC environment.</li>
+          </ul>
+          <h3 id="selection-procedure"><strong>Selection Procedure</strong></h3>
+          <p>There are number of considerations for selecting a proper automation tool for a particular application
+          For multiple product manufacturing, varied receipe parameters, multiple procedures, often changes required in receipes, complex batch processes with number of regulatory loops, <strong>DCS</strong> is preferred.
+          If the operator's interaction is required to keep process to fulfill target performance, For observing process with faceplates, critical trends, for responding effectively during plant upsets, <strong>DCS</strong> is preferred.
+          <strong>DCS</strong> gives adjustable scan time, online configuration changes, simple to advanced PID control and advanced process control strategies.</p>
+          <h3 id="difference-between-plc-and-dcs"><strong>Difference Between PLC and DCS</strong></h3>
+          <center><img src="images/img10.png" title=""></center>
+          
+          </div>
+        </div>
+      </div>
+      <footer class="text-light pt-2 vlabs-footer d-flex flex-column">
+        <div class="row px-5 mx-0">
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Community Links</span>
+            <a href="https://www.sakshat.ac.in/" class="text-light">Sakshat Portal</a>
+            <a href="http://outreach.vlabs.ac.in/" class="text-light">Outreach Portal</a>
+            <a href="https://vlab.co.in/faq" class="text-light">FAQ: Virtual Labs</a>
+          </div>
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Contact Us</span>
+            <span> Phone: General Information: 011-26582050 </span>
+            <span> Email: support@vlabs.ac.in </span>
+          </div>
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Follow Us</span>
+            <div class="social-links">
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #55acee;" href="https://twitter.com/TheVirtualLabs">
+      	  <i class="fa fa-twitter"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #3b5998;" href="https://www.facebook.com/Virtual-Labs-IIT-Delhi-301510159983871/">
+      	  <i class="fa fa-facebook"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #e52d27;" href="https://www.youtube.com/watch?v=asxRaOgk6a0">
+      	  <i class="fa fa-youtube"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #2867B2;" href="https://in.linkedin.com/in/virtual-labs-008ba9136">
+      	  <i class="fa fa-linkedin"></i>
+      	</a>
+            </div>
+          </div>
+        </div>
+        <div class="m-0 py-2 text-center" style="font-family: &quot;Open Sans&quot;, sans-serif; background: #212121;">
+          <a class="text-primary font-weight-bold" href="https://www.gnu.org/licenses/agpl-3.0.en.html"> AGPL 3.0 </a>
+          &nbsp;&amp;&nbsp;
+          <a class="text-primary font-weight-bold" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative Commons (CC BY-NC-SA 4.0) </a>
+        </div>
+      </footer>
+
+      <script src="./assets/js/toggleSidebar.js"></script>
+      
+  
+
+<script type="module" src="https://vjspranav.github.io/vleads-bug-report/client/app.js"></script></body></html>

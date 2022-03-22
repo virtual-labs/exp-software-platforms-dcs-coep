@@ -1,0 +1,65 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What is full form of DCS?",
+      "answers": {
+        "a": "Distributed Control System",
+        "b": "Digital Control System",
+        "c": "De Centralized System",
+        "d": "Data Control System"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is an example of closed loop control",
+      "answers": {
+        "a": "A valve getting signal from controller to maintain temperature depending on the temperature sensed by the sensor",
+        "b": "A car driven by a drive",
+        "c": "None of these",
+        "d": "Both a and b"
+      },
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is not an automation tool?",
+      "answers": {
+        "a": "PLC",
+        "b": "Solenoid valve",
+        "c": "DCS",
+        "d": "None of these"
+      },
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The purpose of automation is",
+      "answers": {
+        "a": "To maintain consistency of product",
+        "b": "To maintain quality of product",
+        "c": "Both a and b",
+        "d": "None of these"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "......is/are mandatory in any feedback control loop",
+      "answers": {
+        "a": "Convertor",
+        "b": "Controller",
+        "c": "Both a and b",
+        "d": "None of these"
+      },
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}
